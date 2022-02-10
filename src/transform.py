@@ -1,9 +1,4 @@
-
-from shapely.geometry import Point
-from shapely.geometry.polygon import Polygon
-from shapely import wkb
 import geopandas as gpd
-import pandas as pd
 def transformar_letras_a_numero(rentas_df):
     text_to_number_dict = {
         "uno" : 1.0,
